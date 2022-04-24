@@ -9,7 +9,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='moteurmapy',
-    version='1.0.2',
+    version='1.0.4',
     packages=find_packages(),
     url='',
     license='MIT',

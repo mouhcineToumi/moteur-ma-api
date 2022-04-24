@@ -21,6 +21,7 @@ class MoteurList( StaticCrawler ):
         d['model_year'] = html.find(class_="icon-normal-calendar-month").parent.text
         d['city'] = html.find(class_="icon-normal-pointer").parent.text
         d['fuel'] = html.find(class_="icon-fuel").parent.text
+        return d
     
     @fuckit
     def get_page_count(self, html):
