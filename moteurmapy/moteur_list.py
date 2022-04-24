@@ -8,10 +8,6 @@ class MoteurList( StaticCrawler ):
     
     def __init__(self):
         super().__init__()
-        
-        
-    def build_url(self, page=0):
-        return "https://www.moteur.ma/fr/voiture/achat-voiture-occasion/"+str(page*15)
     
     @sanitize
     @fuckit
