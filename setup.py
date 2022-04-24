@@ -6,9 +6,10 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 
+
 setup(
     name='moteurmapy',
-    version='1.0.0',
+    version='1.0.2',
     packages=find_packages(),
     url='',
     license='MIT',
@@ -16,5 +17,5 @@ setup(
     author_email='',
     description='An unofficial API for scrapping Moteur.ma',
     long_description=long_description,
-    long_description_content_type='text/markdown'
-)
+    long_description_content_type='text/markdown',
+    install_requires=['fuckit', 'beautifulsoup4'])
