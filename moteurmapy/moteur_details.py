@@ -1,6 +1,6 @@
 
-from pymoteurma.helpers import sanitize
-from pymoteurma.static_crawler import StaticCrawler
+from moteurmapy.helpers import sanitize
+from moteurmapy.static_crawler import StaticCrawler
 import fuckit
 
 
