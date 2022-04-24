@@ -1,8 +1,10 @@
 
 from setuptools import setup, find_packages
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 
 setup(
     name='pymoteurma',
@@ -11,7 +13,8 @@ setup(
     url='',
     license='MIT',
     author='mouhcine',
-    author_email='mouhcine.toumi98@gmail.com',
+    author_email='',
     description='An unofficial API for scrapping Moteur.ma',
-    install_requires=required
+    long_description=long_description,
+    long_description_content_type='text/markdown'
 )
