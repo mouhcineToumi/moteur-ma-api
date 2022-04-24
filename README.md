@@ -44,7 +44,7 @@ from moteurmapy import QueryBuilder
 
 query_builder = QueryBuilder()
 
-url = query_builder(marque="dacia", 
+url = query_builder.build(marque="dacia", 
                         carburant="diesel", 
                         km=20000, 
                         region="rabat-sale-kenitra", 
