@@ -4,14 +4,14 @@ This is an unofficial Python API for Moteur.ma
 
 # install
 ```bash
-pip install pymoteurma
+pip install moteurmapy
 ```
 
 # Quick Start
 ### Example 1: collect search results
 ```python
 
-from pymoteurma import MoteurList
+from moteurmapy import MoteurList
 
 moteur_list = MoteurList()
 
@@ -26,7 +26,7 @@ df_list = pd.DataFrame( list_of_cars )
 
 ```python
 
-from pymoteurma import MoteurDetails
+from moteurmapy import MoteurDetails
 
 moteur_details = MoteurDetails()
 

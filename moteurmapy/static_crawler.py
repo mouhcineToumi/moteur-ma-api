@@ -1,6 +1,6 @@
 
 import requests
-from pymoteurma.helpers import string_to_soup
+from moteurmapy.helpers import string_to_soup
 
 class StaticCrawler:
     
