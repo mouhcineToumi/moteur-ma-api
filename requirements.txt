@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.1
+fuckit==4.8.1
+requests==2.25.1
+setuptools==52.0.0.post20210125
